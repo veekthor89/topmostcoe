@@ -12,14 +12,14 @@ export type Program = {
   slug: string;
   title: string;
   image: string;
-  category: "Undergraduate" | "Professional" | "Degree" | "Online" | "Certificate";
+  category: "Undergraduate" | "Postgraduate" | "Degree" | "Online" | "Certificate";
   blurb: string;
 };
 
 export const PROGRAMS: Program[] = [
   { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Degree", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
   { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Certificate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
-  { slug: "ll-b-bachelor-of-laws", title: "LL.B (Bachelor of Laws)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Professional", blurb: "Comprehensive legal education with practical advocacy training." },
+  { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Postgraduate", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "B.Sc. in Public Health", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Undergraduate", blurb: "Address modern health challenges through evidence-based practice." },
   { slug: "b-a-in-english-literature", title: "B.A. in English Literature", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Undergraduate", blurb: "Explore literature, criticism and creative writing across cultures." },
   { slug: "b-sc-in-biotechnology", title: "B.Sc. in Biotechnology", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "Degree", blurb: "Bridge biology and technology to innovate in healthcare and agriculture." },
@@ -29,12 +29,12 @@ export const PROGRAMS: Program[] = [
   { slug: "b-sc-in-data-science", title: "B.Sc. in Data Science", image: "https://framerusercontent.com/images/EU9Lyg6JKFiBn2rzVX9nNYq61ik.png", category: "Degree", blurb: "Turn data into insight with statistics, ML and visualization." },
   { slug: "b-sc-in-artificial-intelligence", title: "B.Sc. in Artificial Intelligence", image: "https://framerusercontent.com/images/I9jq7IPQ7TtkNw240huBZM29vZ4.jpg", category: "Degree", blurb: "Shape the future of intelligent systems and applied AI." },
   { slug: "b-sc-in-software-engineering", title: "B.Sc. in Software Engineering", image: "https://framerusercontent.com/images/K7oUH6zJ9duT6M0WS7UpQ6cGm5s.png", category: "Degree", blurb: "Engineer scalable, reliable software for real-world impact." },
-  { slug: "master-of-business-administration", title: "Master of Business Administration", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Professional", blurb: "Advance to senior leadership with our flagship MBA program." },
-  { slug: "executive-program-in-business", title: "Executive Program in Business", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Professional", blurb: "Intensive program for working executives ready for the next step." },
+  { slug: "master-of-business-administration", title: "Master of Business Administration", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Postgraduate", blurb: "Advance to senior leadership with our flagship MBA program." },
+  { slug: "executive-program-in-business", title: "Executive Program in Business", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Postgraduate", blurb: "Intensive program for working executives ready for the next step." },
   { slug: "educational-leadership-online", title: "Educational Leadership (Online)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Online", blurb: "Lead change in schools and educational organizations — fully online." },
   { slug: "diploma-in-digital-marketing", title: "Diploma in Digital Marketing", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Online", blurb: "Master SEO, social, paid media and analytics in one focused diploma." },
   { slug: "online-certification-in-data", title: "Online Certification in Data", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Online", blurb: "Practical data analysis credential you can complete on your schedule." },
-  { slug: "certificate-in-project-management", title: "Certificate in Project Management", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "Professional", blurb: "Plan, execute and deliver complex projects with confidence." },
+  { slug: "certificate-in-project-management", title: "Certificate in Project Management", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "Postgraduate", blurb: "Plan, execute and deliver complex projects with confidence." },
   { slug: "certification-in-ux-ui-design", title: "Certification in UX/UI Design", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "Online", blurb: "Design products people love through research-led UX practice." },
 ];
 
