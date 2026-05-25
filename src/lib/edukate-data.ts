@@ -17,7 +17,7 @@ export type Program = {
 };
 
 export const PROGRAMS: Program[] = [
-  { slug: "b-sc-in-computer-science", title: "Degree", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Technology", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
+  { slug: "b-sc-in-computer-science", title: "B.Sc. in Computer Science", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Technology", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
   { slug: "bba-in-marketing", title: "BBA in Marketing", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Undergraduate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "LL.B (Bachelor of Laws)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Professional", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "B.Sc. in Public Health", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Undergraduate", blurb: "Address modern health challenges through evidence-based practice." },
