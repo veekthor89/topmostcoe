@@ -3,6 +3,8 @@ import { ArrowRight, Award, Globe, Users, BookOpen, ChevronRight } from "lucide-
 import { PROGRAMS, NEWS, EVENTS, STATS } from "@/lib/edukate-data";
 import heroImage from "@/assets/hero-image.jpg";
 import secondaryImage from "@/assets/secondary-image.jpg";
+import lectureImage from "@/assets/lecture.png";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -53,7 +55,7 @@ function Home() {
               <img src={heroImage} alt="Campus life" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               <div className="space-y-4 pt-12">
                 <img src={secondaryImage} alt="Students collaborating" className="rounded-2xl aspect-square object-cover w-full" />
-                <img src="https://framerusercontent.com/images/nroVYM3DilNq9iycRfWWilYrfE.png" alt="Lecture" className="rounded-2xl aspect-[3/4] object-cover w-full" />
+                <img src={lectureImage} alt="Lecture" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               </div>
             </div>
           </div>
