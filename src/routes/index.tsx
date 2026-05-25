@@ -56,10 +56,6 @@ function Home() {
                 <img src="https://framerusercontent.com/images/nroVYM3DilNq9iycRfWWilYrfE.png" alt="Lecture" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               </div>
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-background rounded-2xl shadow-lg border border-border p-4 flex items-center gap-3 max-w-xs">
-              <div className="h-10 w-10 rounded-full bg-accent grid place-items-center"><Award className="h-5 w-5 text-accent-foreground" /></div>
-              <div className="text-sm"><div className="font-semibold">Top 5</div><div className="text-muted-foreground text-xs">National Innovation Ranking</div></div>
-            </div>
           </div>
         </div>
       </section>
