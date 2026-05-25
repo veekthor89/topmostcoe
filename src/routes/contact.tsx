@@ -6,9 +6,9 @@ import { SITE } from "@/lib/edukate-data";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — TOPCOED University" },
-      { name: "description", content: "Get in touch with TOPCOED University admissions, faculty, or campus services." },
-      { property: "og:title", content: "Contact TOPCOED University" },
+      { title: "Contact — TOPCOED" },
+      { name: "description", content: "Get in touch with TOPCOED admissions, faculty, or campus services." },
+      { property: "og:title", content: "Contact TOPCOED" },
       { property: "og:description", content: "Reach our admissions and student services teams." },
     ],
   }),

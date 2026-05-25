@@ -4,9 +4,9 @@ import { NEWS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/news")({
   head: () => ({
     meta: [
-      { title: "News — TOPCOED University" },
-      { name: "description", content: "The latest research, campus stories, and announcements from TOPCOED University." },
-      { property: "og:title", content: "News from TOPCOED University" },
+      { title: "News — TOPCOED" },
+      { name: "description", content: "The latest research, campus stories, and announcements from TOPCOED." },
+      { property: "og:title", content: "News from TOPCOED" },
       { property: "og:description", content: "Research breakthroughs, campus stories, and announcements." },
     ],
   }),

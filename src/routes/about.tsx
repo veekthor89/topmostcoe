@@ -5,9 +5,9 @@ import { STATS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — TOPCOED University" },
-      { name: "description", content: "TOPCOED University has championed academic excellence, original research, and a global student community." },
-      { property: "og:title", content: "About TOPCOED University" },
+      { title: "About — TOPCOED" },
+      { name: "description", content: "TOPCOED has championed academic excellence, original research, and a global student community." },
+      { property: "og:title", content: "About TOPCOED" },
       { property: "og:description", content: "Empowering futures through academic excellence and innovation." },
       { property: "og:image", content: "https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" },
     ],
@@ -25,7 +25,7 @@ function AboutPage() {
             A legacy of <em>curiosity</em> and excellence.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            TOPCOED University has grown into a global institution with students from more than 50 countries.
+            TOPCOED has grown into a global institution with students from more than 50 countries.
           </p>
         </div>
       </section>
