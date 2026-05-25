@@ -14,6 +14,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image", content: heroImage },
     ],
   }),
+  component: Home,
 });
 
 function Home() {
