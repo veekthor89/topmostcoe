@@ -26,7 +26,7 @@ function Home() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-b from-secondary to-background">
-        <div className="mx-auto max-w-7xl px-6 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mx-auto max-w-7xl px-6 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <span className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="mr-2 h-1.5 w-1.5 rounded-full bg-accent" />
