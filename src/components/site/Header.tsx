@@ -22,7 +22,7 @@ export function Header() {
           <div className="flex items-center gap-6">
             <a href={`tel:${SITE.phone}`} className="flex items-center gap-1.5 hover:text-accent transition"><Phone className="h-3 w-3" />{SITE.phone}</a>
             <a href={`mailto:${SITE.email}`} className="flex items-center gap-1.5 hover:text-accent transition"><Mail className="h-3 w-3" />{SITE.email}</a>
-            <span className="flex items-center gap-1.5"><MapPin className="h-3 w-3" />New City, California</span>
+            <span className="flex items-center gap-1.5"><MapPin className="h-3 w-3" />{SITE.address}</span>
           </div>
         </div>
       </div>
