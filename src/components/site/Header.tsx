@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, MapPin, Menu, X } from "lucide-react";
+import { Phone, Mail, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/lib/edukate-data";
 
@@ -20,7 +20,7 @@ export function Header() {
         <div className="mx-auto max-w-7xl px-6 py-2 flex items-center justify-between">
           <span className="font-serif italic">{SITE.tagline}</span>
           <div className="flex items-center gap-6">
-            <span className="flex items-center gap-1.5">{SITE.phone}</span>
+            <a href={`tel:${SITE.phone}`} className="flex items-center gap-1.5 hover:text-accent transition"><Phone className="h-3 w-3" />{SITE.phone}</a>
             <a href={`mailto:${SITE.email}`} className="flex items-center gap-1.5 hover:text-accent transition"><Mail className="h-3 w-3" />{SITE.email}</a>
             <span className="flex items-center gap-1.5"><MapPin className="h-3 w-3" />New City, California</span>
           </div>

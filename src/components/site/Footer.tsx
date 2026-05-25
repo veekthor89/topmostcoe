@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { SITE } from "@/lib/edukate-data";
 
 export function Footer() {
@@ -28,7 +28,7 @@ export function Footer() {
         <div>
           <h4 className="font-medium mb-4 text-sm uppercase tracking-wider text-primary-foreground/60">Contact</h4>
           <ul className="space-y-3 text-sm text-primary-foreground/80">
-            <li className="flex items-start gap-2">{SITE.phone}</li>
+            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 shrink-0" />{SITE.phone}</li>
             <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5 shrink-0" />{SITE.email}</li>
             <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 shrink-0" />{SITE.address}</li>
           </ul>
