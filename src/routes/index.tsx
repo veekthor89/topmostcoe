@@ -43,10 +43,10 @@ function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:bg-primary/90 transition">
-                Explore Programmes
+                Apply for 2025/2026 Session →
               </Link>
               <Link to="/programs" className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-medium hover:border-primary transition">
-                Apply for 2025/2026 Session →
+                Explore Programmes
               </Link>
             </div>
           </div>
