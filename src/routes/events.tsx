@@ -5,9 +5,9 @@ import { EVENTS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events — Edukate University" },
-      { name: "description", content: "Conferences, performances, competitions, and campus gatherings at Edukate University." },
-      { property: "og:title", content: "Events at Edukate University" },
+      { title: "Events — TOPCOED University" },
+      { name: "description", content: "Conferences, performances, competitions, and campus gatherings at TOPCOED University." },
+      { property: "og:title", content: "Events at TOPCOED University" },
       { property: "og:description", content: "Conferences, performances, and competitions throughout the year." },
     ],
   }),
@@ -34,7 +34,7 @@ function EventsPage() {
               <div className="flex flex-col justify-center py-2 md:py-0">
                 <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground">
                   <span className="inline-flex items-center gap-1.5 text-accent font-medium"><Calendar className="h-3.5 w-3.5" />{e.date}</span>
-                  <span className="inline-flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5" />Edukate Campus</span>
+                  <span className="inline-flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5" />TOPCOED Campus</span>
                 </div>
                 <h3 className="font-serif text-2xl lg:text-3xl font-semibold mt-3 tracking-tight group-hover:text-primary transition">{e.title}</h3>
                 <p className="mt-3 text-muted-foreground leading-relaxed max-w-2xl">{e.excerpt}</p>

@@ -6,9 +6,9 @@ import { PROGRAMS, type Program } from "@/lib/edukate-data";
 export const Route = createFileRoute("/programs")({
   head: () => ({
     meta: [
-      { title: "Programs — Edukate University" },
-      { name: "description", content: "Browse 120+ undergraduate, graduate, professional, and online programs at Edukate University." },
-      { property: "og:title", content: "Programs at Edukate University" },
+      { title: "Programs — TOPCOED University" },
+      { name: "description", content: "Browse 120+ undergraduate, graduate, professional, and online programs at TOPCOED University." },
+      { property: "og:title", content: "Programs at TOPCOED University" },
       { property: "og:description", content: "Discover undergraduate, graduate, professional, and online programs designed for real-world success." },
     ],
   }),
