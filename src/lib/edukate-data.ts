@@ -2,10 +2,10 @@
 
 export const SITE = {
   name: "Edukate University",
-  tagline: "Empowering Futures Since 1890",
-  phone: "+1 (800) 123-4567",
-  email: "info@Edukateuniversity.edu",
-  address: "123 University Lane, New City, California, USA",
+  tagline: "Empowering Futures Educators",
+  phone: "08037204088, 08033183854",
+  email: "info@topmost.edu",
+  address: "Ipaja/Agbado, Lagos",
 };
 
 export type Program = {
