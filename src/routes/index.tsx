@@ -180,7 +180,7 @@ function Home() {
             <h2 className="font-serif text-4xl lg:text-5xl font-semibold tracking-tight">Ready to begin your journey?</h2>
             <p className="mt-4 text-primary-foreground/80 max-w-md">Join a vibrant community of thinkers, creators, and leaders. Applications open for 2025/2026 Session.</p>
             <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition">
-              Explore Programs <ArrowRight className="h-4 w-4" />
+              Apply for 2025/2026 Session →
             </Link>
           </div>
           <div className="hidden lg:block relative h-64">
