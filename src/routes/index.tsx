@@ -90,10 +90,10 @@ function Home() {
           </p>
           <div className="mt-8 grid grid-cols-2 gap-6">
             {[
-              { icon: Award, label: "Top 5 National Innovation Ranking" },
-              { icon: BookOpen, label: "100+ Graduates Annually" },
-              { icon: Globe, label: "Licensed & Accredited" },
-              { icon: Users, label: "25,000+ Students Enrolled" },
+              { icon: Award, label: "Approved by Federal Government of Nigeria" },
+              { icon: BookOpen, label: "Affiliated with Lagos State University" },
+              { icon: Globe, label: "Accredited by TRCN" },
+              { icon: Users, label: "5,000+ Students Enrolled" },
             ].map((f) => (
               <div key={f.label} className="flex items-start gap-3">
                 <div className="h-9 w-9 rounded-lg bg-secondary grid place-items-center shrink-0"><f.icon className="h-4 w-4 text-primary" /></div>
