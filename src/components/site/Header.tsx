@@ -30,7 +30,7 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Topmost College of Education" className="h-10 w-auto" />
-          <span className="font-serif text-xl font-semibold tracking-tight">Edukate</span>
+          <span className="font-serif text-xl font-semibold tracking-tight">{SITE.name}</span>
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
           {nav.map((n) => (

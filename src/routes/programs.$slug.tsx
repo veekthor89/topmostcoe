@@ -11,9 +11,9 @@ export const Route = createFileRoute("/programs/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.program.title} — Edukate University` },
+          { title: `${loaderData.program.title} — TOPCOED University` },
           { name: "description", content: loaderData.program.blurb },
-          { property: "og:title", content: `${loaderData.program.title} — Edukate University` },
+          { property: "og:title", content: `${loaderData.program.title} — TOPCOED University` },
           { property: "og:description", content: loaderData.program.blurb },
           { property: "og:image", content: loaderData.program.image },
         ]
@@ -73,7 +73,7 @@ function ProgramDetail() {
       <section className="mx-auto max-w-4xl px-6 py-16 prose prose-neutral">
         <h2 className="font-serif text-3xl font-semibold tracking-tight">About the program</h2>
         <p className="text-muted-foreground leading-relaxed mt-4">
-          {program.title} at Edukate University combines rigorous theory with hands-on practice. You'll work alongside award-winning faculty, collaborate with peers from 50+ countries, and graduate with a portfolio that opens doors at leading employers worldwide.
+          {program.title} at TOPCOED University combines rigorous theory with hands-on practice. You'll work alongside award-winning faculty, collaborate with peers from 50+ countries, and graduate with a portfolio that opens doors at leading employers worldwide.
         </p>
         <h3 className="font-serif text-2xl font-semibold tracking-tight mt-10">What you'll learn</h3>
         <ul className="mt-4 space-y-2 text-muted-foreground">

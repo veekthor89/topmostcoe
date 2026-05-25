@@ -1,7 +1,7 @@
 // Data extracted from edukate.framer.website scrape
 
 export const SITE = {
-  name: "Edukate University",
+  name: "TOPCOED",
   tagline: "Empowering Futures Educators",
   phone: "08037204088, 08033183854",
   email: "info@topmost.edu",
@@ -47,7 +47,7 @@ export type Post = {
 };
 
 export const NEWS: Post[] = [
-  { slug: "climate-solutions", title: "Climate Solutions Driving the Next Decade", date: "Mar 18, 2025", image: "https://framerusercontent.com/images/luVIdrO0w0Yq6ufqymfoO2maDAw.png", excerpt: "Edukate researchers unveil a roadmap for scalable climate solutions." },
+  { slug: "climate-solutions", title: "Climate Solutions Driving the Next Decade", date: "Mar 18, 2025", image: "https://framerusercontent.com/images/luVIdrO0w0Yq6ufqymfoO2maDAw.png", excerpt: "TOPCOED researchers unveil a roadmap for scalable climate solutions." },
   { slug: "energy-efficiency", title: "Breakthroughs in Energy Efficiency", date: "Mar 02, 2025", image: "https://framerusercontent.com/images/HUZa3FT5X6SynWllviBSNe9ldZ8.png", excerpt: "A new lab pushes building energy use to record lows." },
   { slug: "environmental-impact", title: "Measuring Our Environmental Impact", date: "Feb 21, 2025", image: "https://framerusercontent.com/images/YhMGo78KsMrUeJnprF1NJBOMyA.png", excerpt: "How the campus reached carbon-neutral operations." },
   { slug: "green-technology", title: "Green Technology on Campus", date: "Feb 10, 2025", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", excerpt: "Student-led startups bringing green tech to market." },

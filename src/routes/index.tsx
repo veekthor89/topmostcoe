@@ -5,10 +5,10 @@ import { PROGRAMS, NEWS, EVENTS, STATS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Edukate University — Your Journey Begins Here" },
-      { name: "description", content: "Discover undergraduate, graduate, and online programs at Edukate University. Empowering 42,000+ students from 50+ countries since 1890." },
-      { property: "og:title", content: "Edukate University — Your Journey Begins Here" },
-      { property: "og:description", content: "World-class education, global community, and a 130+ year tradition of excellence." },
+      { title: "TOPCOED University — Your Journey Begins Here" },
+      { name: "description", content: "Discover undergraduate, graduate, and online programs at TOPCOED University. Empowering 42,000+ students from 50+ countries." },
+      { property: "og:title", content: "TOPCOED University — Your Journey Begins Here" },
+      { property: "og:description", content: "World-class education, global community, and a tradition of excellence." },
       { property: "og:image", content: "https://framerusercontent.com/images/rrMnWG3fE8i7781QrGikDFsyhNg.png" },
     ],
   }),
@@ -31,7 +31,7 @@ function Home() {
               Trusted by 42,000+ students
             </span>
             <h1 className="font-serif text-5xl lg:text-7xl font-semibold tracking-tight mt-6 leading-[1.05]">
-              Your Journey<br/>Begins at <em className="text-primary">Edukate</em>
+              Your Journey<br/>Begins at <em className="text-primary">TOPCOED</em>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
               For 130+ years, we've prepared curious minds for a changing world.
@@ -80,10 +80,10 @@ function Home() {
           <img src="https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" alt="Library" className="rounded-2xl w-full aspect-[4/3] object-cover" />
         </div>
         <div>
-          <span className="text-xs font-medium uppercase tracking-widest text-accent">About Edukate</span>
+          <span className="text-xs font-medium uppercase tracking-widest text-accent">About TOPCOED</span>
           <h2 className="font-serif text-4xl lg:text-5xl font-semibold mt-3 tracking-tight">Innovative Education for Global Impact</h2>
           <p className="mt-6 text-muted-foreground leading-relaxed">
-            At Edukate University, we are committed to delivering an education that prepares students for the challenges of a rapidly changing world. Since our founding in 1890, Edukate has stood for academic excellence, original research, and a community where every student belongs.
+            At TOPCOED University, we are committed to delivering an education that prepares students for the challenges of a rapidly changing world. TOPCOED stands for academic excellence, original research, and a community where every student belongs.
           </p>
           <div className="mt-8 grid grid-cols-2 gap-6">
             {[
