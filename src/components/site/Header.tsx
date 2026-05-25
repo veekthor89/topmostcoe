@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Menu, X } from "lucide-react";
+import { Mail, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/lib/edukate-data";
 
