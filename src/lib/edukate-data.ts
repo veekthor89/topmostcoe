@@ -3,7 +3,7 @@
 export const SITE = {
   name: "Edukate University",
   tagline: "Empowering Futures Since 1890",
-  phone: "+1 (800) 123-4567",
+  phone: "Empowering Future Educators",
   email: "info@Edukateuniversity.edu",
   address: "123 University Lane, New City, California, USA",
 };
