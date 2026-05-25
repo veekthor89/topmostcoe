@@ -85,8 +85,8 @@ function Home() {
         <div>
           <span className="text-xs font-medium uppercase tracking-widest text-accent">About TOPCOED</span>
           <h2 className="font-serif text-4xl font-semibold mt-3 tracking-tight lg:text-5xl">A Legacy of Teacher Training,{"\n"}built for Modern Nigeria.</h2>
-          <p className="mt-6 text-muted-foreground leading-relaxed">
-            Topmost College of Education is a Federal Government-approved institution affiliated with Lagos State University, Ojo, and fully accredited by the Teachers Registration Council of Nigeria (TRCN).&nbsp; {"\n"}We offer a broad range of programes from NCE and B.Ed to Professional Diploma in Education for working nurses and healthcare professionals all designed to produce qualified, capable, and licensed educators for Nigeria's schools and communities.&nbsp;{"\n"}Located in Ipaja, Lagos, we combine academic rigour with practical teacher-training to ensure every graduate is classroom-ready and TRCN-certified.
+          <p className="mt-6 text-muted-foreground leading-relaxed my-[25px]">
+            Topmost College of Education is a Federal Government-approved institution affiliated with Lagos State University, Ojo, and fully accredited by the Teachers Registration Council of Nigeria (TRCN).&nbsp;{"\n"}We offer a broad range of programes from NCE and B.Ed to Professional Diploma in Education for working nurses and healthcare professionals all designed to produce qualified, capable, and licensed educators for Nigeria's schools and communities.&nbsp;&nbsp;{"\n"}Located in Ipaja, Lagos, we combine academic rigour with practical teacher-training to ensure every graduate is classroom-ready and TRCN-certified.
           </p>
           <div className="mt-8 grid grid-cols-2 gap-6">
             {[
