@@ -1,18 +1,19 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Award, Globe, Users, BookOpen, ChevronRight } from "lucide-react";
 import { PROGRAMS, NEWS, EVENTS, STATS } from "@/lib/edukate-data";
+import heroImage from "@/assets/hero-image.jpg";
+import secondaryImage from "@/assets/secondary-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "TOPCOED — Your Journey Begins Here" },
-      { name: "description", content: "Discover undergraduate, graduate, and online programs at TOPCOED. Empowering 42,000+ students from 50+ countries." },
-      { property: "og:title", content: "TOPCOED — Your Journey Begins Here" },
-      { property: "og:description", content: "World-class education, global community, and a tradition of excellence." },
-      { property: "og:image", content: "https://framerusercontent.com/images/rrMnWG3fE8i7781QrGikDFsyhNg.png" },
+      { title: "TOPCOED — Train. Qualify. Teach with Purpose" },
+      { name: "description", content: "Topmost College of Education prepares the next generation of Nigerian teachers through accredited degree, diploma, and professional programmes." },
+      { property: "og:title", content: "TOPCOED — Train. Qualify. Teach with Purpose" },
+      { property: "og:description", content: "Topmost College of Education prepares the next generation of Nigerian teachers through accredited degree, diploma, and professional programmes." },
+      { property: "og:image", content: heroImage },
     ],
   }),
-  component: Home,
 });
 
 function Home() {
@@ -192,3 +193,5 @@ function Home() {
     </div>
   );
 }
+
+export { Home };
