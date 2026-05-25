@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Phone, Mail, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/lib/edukate-data";
+import logo from "@/assets/topcoed-logo.png";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -28,7 +29,7 @@ export function Header() {
       </div>
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-full bg-primary text-primary-foreground grid place-items-center font-serif font-bold">​</div>
+          <img src={logo} alt="Topmost College of Education" className="h-10 w-auto" />
           <span className="font-serif text-xl font-semibold tracking-tight">Edukate</span>
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
