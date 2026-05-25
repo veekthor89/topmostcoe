@@ -88,8 +88,8 @@ function Home() {
           <div className="mt-8 grid grid-cols-2 gap-6">
             {[
               { icon: Award, label: "Top 5 National Innovation Ranking" },
-              { icon: BookOpen, label: "20+ Research Centers" },
-              { icon: Globe, label: "50+ Countries Represented" },
+              { icon: BookOpen, label: "100+ Graduates Annually" },
+              { icon: Globe, label: "Licensed & Accredited" },
               { icon: Users, label: "25,000+ Students Enrolled" },
             ].map((f) => (
               <div key={f.label} className="flex items-start gap-3">
