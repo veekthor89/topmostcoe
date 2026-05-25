@@ -28,7 +28,7 @@ export function Header() {
       </div>
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-full bg-primary text-primary-foreground grid place-items-center font-serif font-bold">E</div>
+          <div className="h-9 w-9 rounded-full bg-primary text-primary-foreground grid place-items-center font-serif font-bold">​</div>
           <span className="font-serif text-xl font-semibold tracking-tight">Edukate</span>
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
