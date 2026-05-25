@@ -77,11 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Edukate University — Empowering Futures Since 1890" },
       { name: "description", content: "Edukate University offers world-class undergraduate, graduate, and online programs. Join 42,000+ students from 50+ countries." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Edukate University — Empowering Futures Since 1890" },
+      { property: "og:description", content: "Edukate University offers world-class undergraduate, graduate, and online programs. Join 42,000+ students from 50+ countries." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Edukate University — Empowering Futures Since 1890" },
+      { name: "twitter:description", content: "Edukate University offers world-class undergraduate, graduate, and online programs. Join 42,000+ students from 50+ countries." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/353a1b52-c6ae-4c45-b546-3060edf23186/id-preview-2a8eb1b1--42a1ee0a-f98b-48a6-856b-7bc176556005.lovable.app-1779576892776.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/353a1b52-c6ae-4c45-b546-3060edf23186/id-preview-2a8eb1b1--42a1ee0a-f98b-48a6-856b-7bc176556005.lovable.app-1779576892776.png" },
     ],
     links: [
       {
