@@ -73,8 +73,8 @@ export const EVENTS: Event[] = [
 ];
 
 export const STATS = [
-  { value: "2025/2026", label: "Admission Session" },
-  { value: "50+", label: "Countries Represented" },
-  { value: "120+", label: "Programs Offered" },
-  { value: "20+", label: "Research Centers" },
+  { value: "2001", label: "Year Established" },
+  { value: "TRCN", label: "Licensed & Accredited" },
+  { value: "LASU", label: "University Affiliation" },
+  { value: "100+", label: "Graduates Annually" },
 ];
