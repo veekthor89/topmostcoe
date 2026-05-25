@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { SITE } from "@/lib/edukate-data";
+import logo from "@/assets/topcoed-logo.png";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 mb-4">
-            <div className="h-9 w-9 rounded-full bg-accent text-accent-foreground grid place-items-center font-serif font-bold">​</div>
+            <img src={logo} alt="Topmost College of Education" className="h-10 w-auto" />
             <span className="font-serif text-xl font-semibold">Edukate University</span>
           </div>
           <p className="text-sm text-primary-foreground/70 max-w-md leading-relaxed">
