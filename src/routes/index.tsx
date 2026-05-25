@@ -1,15 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Award, Globe, Users, BookOpen, ChevronRight } from "lucide-react";
 import { PROGRAMS, NEWS, EVENTS, STATS } from "@/lib/edukate-data";
+import heroImage from "@/assets/hero-image.jpg";
+import secondaryImage from "@/assets/secondary-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "TOPCOED — Your Journey Begins Here" },
-      { name: "description", content: "Discover undergraduate, graduate, and online programs at TOPCOED. Empowering 42,000+ students from 50+ countries." },
-      { property: "og:title", content: "TOPCOED — Your Journey Begins Here" },
-      { property: "og:description", content: "World-class education, global community, and a tradition of excellence." },
-      { property: "og:image", content: "https://framerusercontent.com/images/rrMnWG3fE8i7781QrGikDFsyhNg.png" },
+      { title: "TOPCOED — Train. Qualify. Teach with Purpose" },
+      { name: "description", content: "Topmost College of Education prepares the next generation of Nigerian teachers through accredited degree, diploma, and professional programmes." },
+      { property: "og:title", content: "TOPCOED — Train. Qualify. Teach with Purpose" },
+      { property: "og:description", content: "Topmost College of Education prepares the next generation of Nigerian teachers through accredited degree, diploma, and professional programmes." },
+      { property: "og:image", content: heroImage },
     ],
   }),
   component: Home,
@@ -28,29 +30,29 @@ function Home() {
           <div>
             <span className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="mr-2 h-1.5 w-1.5 rounded-full bg-accent" />
-              Trusted by 42,000+ students
+              Apply for 2025/2026 Session
             </span>
-            <h1 className="font-serif text-5xl lg:text-7xl font-semibold tracking-tight mt-6 leading-[1.05]">
-              Your Journey<br/>Begins at <em className="text-primary">TOPCOED</em>
+            <h1 className="font-serif text-5xl lg:text-7xl font-semibold tracking-tight mt-6 leading-[1.05] whitespace-pre-line">
+              Train. Qualify{"\n"}Teach with Purpose
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              For 130+ years, we've prepared curious minds for a changing world.
-              Choose from 120+ programs across our four schools and join a global community of doers.
+              Topmost College of Education prepares the next generation of Nigerian teachers 
+              through accredited degree, diploma, and professional programmes - right in the heart of Lagos.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:bg-primary/90 transition">
-                Apply for Spring 2025 <ArrowRight className="h-4 w-4" />
+                Explore Programs <ArrowRight className="h-4 w-4" />
               </Link>
               <Link to="/programs" className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-medium hover:border-primary transition">
-                Browse programs
+                Explore Programs
               </Link>
             </div>
           </div>
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://framerusercontent.com/images/rrMnWG3fE8i7781QrGikDFsyhNg.png" alt="Campus life" className="rounded-2xl aspect-[3/4] object-cover w-full" />
+              <img src={heroImage} alt="Campus life" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               <div className="space-y-4 pt-12">
-                <img src="https://framerusercontent.com/images/Pu3AWXkoL923GNTuKAI4BLH3eI.png" alt="Students collaborating" className="rounded-2xl aspect-square object-cover w-full" />
+                <img src={secondaryImage} alt="Students collaborating" className="rounded-2xl aspect-square object-cover w-full" />
                 <img src="https://framerusercontent.com/images/nroVYM3DilNq9iycRfWWilYrfE.png" alt="Lecture" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               </div>
             </div>
@@ -176,9 +178,9 @@ function Home() {
         <div className="relative overflow-hidden rounded-3xl bg-primary text-primary-foreground p-12 lg:p-20 grid lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="font-serif text-4xl lg:text-5xl font-semibold tracking-tight">Ready to begin your journey?</h2>
-            <p className="mt-4 text-primary-foreground/80 max-w-md">Join a vibrant community of thinkers, creators, and leaders. Applications open for Spring 2025.</p>
+            <p className="mt-4 text-primary-foreground/80 max-w-md">Join a vibrant community of thinkers, creators, and leaders. Applications open for 2025/2026 Session.</p>
             <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition">
-              Apply for Spring 2025 <ArrowRight className="h-4 w-4" />
+              Explore Programs <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
           <div className="hidden lg:block relative h-64">
@@ -192,3 +194,5 @@ function Home() {
     </div>
   );
 }
+
+export { Home };

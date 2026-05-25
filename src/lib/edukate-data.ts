@@ -73,7 +73,7 @@ export const EVENTS: Event[] = [
 ];
 
 export const STATS = [
-  { value: "42,000+", label: "Students Trust Us" },
+  { value: "2025/2026", label: "Admission Session" },
   { value: "50+", label: "Countries Represented" },
   { value: "120+", label: "Programs Offered" },
   { value: "20+", label: "Research Centers" },
