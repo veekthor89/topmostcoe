@@ -5,9 +5,9 @@ import { EVENTS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events — TOPCOED University" },
-      { name: "description", content: "Conferences, performances, competitions, and campus gatherings at TOPCOED University." },
-      { property: "og:title", content: "Events at TOPCOED University" },
+      { title: "Events — TOPCOED" },
+      { name: "description", content: "Conferences, performances, competitions, and campus gatherings at TOPCOED." },
+      { property: "og:title", content: "Events at TOPCOED" },
       { property: "og:description", content: "Conferences, performances, and competitions throughout the year." },
     ],
   }),
