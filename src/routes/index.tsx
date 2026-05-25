@@ -4,6 +4,9 @@ import { PROGRAMS, NEWS, EVENTS, STATS } from "@/lib/edukate-data";
 import heroImage from "@/assets/hero-image.jpg";
 import secondaryImage from "@/assets/secondary-image.jpg";
 import lectureImage from "@/assets/lecture.png";
+import aboutImage from "@/assets/about-image.png";
+
+
 
 
 export const Route = createFileRoute("/")({
@@ -77,7 +80,7 @@ function Home() {
       {/* About */}
       <section className="mx-auto max-w-7xl px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
         <div className="space-y-4">
-          <img src="https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" alt="Library" className="rounded-2xl w-full aspect-[4/3] object-cover" />
+          <img src={aboutImage} alt="About TOPCOED" className="rounded-2xl w-full aspect-[4/3] object-cover" />
         </div>
         <div>
           <span className="text-xs font-medium uppercase tracking-widest text-accent">About TOPCOED</span>
