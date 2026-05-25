@@ -12,7 +12,7 @@ export type Program = {
   slug: string;
   title: string;
   image: string;
-  category: "Undergraduate" | "Postgraduate" | "Degree" | "Online" | "Certificate";
+  category: "Vocational" | "Postgraduate" | "Degree" | "Online" | "Certificate";
   blurb: string;
 };
 
@@ -20,11 +20,11 @@ export const PROGRAMS: Program[] = [
   { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Degree", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
   { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Certificate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Postgraduate", blurb: "Comprehensive legal education with practical advocacy training." },
-  { slug: "b-sc-in-public-health", title: "B.Sc. in Public Health", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Undergraduate", blurb: "Address modern health challenges through evidence-based practice." },
-  { slug: "b-a-in-english-literature", title: "B.A. in English Literature", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Undergraduate", blurb: "Explore literature, criticism and creative writing across cultures." },
+  { slug: "b-sc-in-public-health", title: "NABTEB O & A Levels", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Vocational", blurb: "Address modern health challenges through evidence-based practice." },
+  { slug: "b-a-in-english-literature", title: "B.A. in English Literature", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Vocational", blurb: "Explore literature, criticism and creative writing across cultures." },
   { slug: "b-sc-in-biotechnology", title: "B.Sc. in Biotechnology", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "Degree", blurb: "Bridge biology and technology to innovate in healthcare and agriculture." },
   { slug: "b-sc-in-electrical-engineering", title: "B.Sc. in Electrical Engineering", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "Degree", blurb: "Design and build the electrical systems that power tomorrow." },
-  { slug: "b-a-in-psychology", title: "B.A. in Psychology", image: "https://framerusercontent.com/images/MY9oljZl07K9qZQcTot9CaYruU.png", category: "Undergraduate", blurb: "Understand the human mind through research, clinical and applied psychology." },
+  { slug: "b-a-in-psychology", title: "B.A. in Psychology", image: "https://framerusercontent.com/images/MY9oljZl07K9qZQcTot9CaYruU.png", category: "Vocational", blurb: "Understand the human mind through research, clinical and applied psychology." },
   { slug: "b-sc-in-cybersecurity", title: "B.Sc. in Cybersecurity", image: "https://framerusercontent.com/images/loscw1ZBnmCGM9cGy1sS4AhX7EA.png", category: "Degree", blurb: "Defend critical systems from evolving cyber threats." },
   { slug: "b-sc-in-data-science", title: "B.Sc. in Data Science", image: "https://framerusercontent.com/images/EU9Lyg6JKFiBn2rzVX9nNYq61ik.png", category: "Degree", blurb: "Turn data into insight with statistics, ML and visualization." },
   { slug: "b-sc-in-artificial-intelligence", title: "B.Sc. in Artificial Intelligence", image: "https://framerusercontent.com/images/I9jq7IPQ7TtkNw240huBZM29vZ4.jpg", category: "Degree", blurb: "Shape the future of intelligent systems and applied AI." },
