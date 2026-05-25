@@ -101,9 +101,7 @@ function Home() {
               </div>
             ))}
           </div>
-          <Link to="/about" className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary hover:gap-3 transition-all">
-            Read more about us <ArrowRight className="h-4 w-4" />
-          </Link>
+          \\u003cLink to=\\\"/about\\\" className=\\\"mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary hover:gap-3 transition-all\\\"\\u003e\\n            Learn more about us \\u003cArrowRight className=\\\"h-4 w-4\\\" /\\u003e\\n          \\u003c/Link\\u003e
         </div>
       </section>
 
