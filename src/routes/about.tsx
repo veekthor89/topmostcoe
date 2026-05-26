@@ -3,6 +3,7 @@ import { ArrowRight, Globe2, Briefcase } from "lucide-react";
 import { STATS } from "@/lib/edukate-data";
 import graduateCap from "@/assets/graduate-cap.png";
 import documentationIcon from "@/assets/documentation.png";
+import handshakeIcon from "@/assets/handshake.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
