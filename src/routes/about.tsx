@@ -64,12 +64,20 @@ function AboutPage() {
         <h2 className="font-serif text-3xl lg:text-4xl font-semibold tracking-tight max-w-2xl">What guides us</h2>
         <div className="mt-12 grid md:grid-cols-3 gap-6">
           {[
-            { t: "Academic Excellence", d: "Faculty drawn from the world's leading institutions, ranked top-5 nationally for innovation." },
-            { t: "Global Perspective", d: "Students from 50+ countries learn alongside one another in every classroom and lab." },
-            { t: "Real-World Impact", d: "20+ research centers translate scholarship into industry, policy, and community outcomes." },
+            { t: "Academic Excellence", d: "Faculty drawn from the world's leading institutions, ranked top-5 nationally for innovation.", icon: "cap" as const },
+            { t: "Global Perspective", d: "Students from 50+ countries learn alongside one another in every classroom and lab.", icon: "globe" as const },
+            { t: "Real-World Impact", d: "20+ research centers translate scholarship into industry, policy, and community outcomes.", icon: "briefcase" as const },
           ].map((v) => (
             <div key={v.t} className="rounded-2xl border border-border bg-card p-8">
-              <div className="h-12 w-12 grid place-items-center"><img src={graduateCap} alt="" className="h-full w-full object-contain" /></div>
+              <div className="h-12 w-12 grid place-items-center">
+                {v.icon === "cap" ? (
+                  <img src={graduateCap} alt="" className="h-full w-full object-contain" />
+                ) : v.icon === "globe" ? (
+                  <Globe2 className="h-8 w-8 text-accent" strokeWidth={1.5} />
+                ) : (
+                  <Briefcase className="h-8 w-8 text-accent" strokeWidth={1.5} />
+                )}
+              </div>
               <h3 className="font-serif text-xl font-semibold mt-5">{v.t}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{v.d}</p>
             </div>
