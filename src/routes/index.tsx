@@ -58,7 +58,6 @@ function Home() {
               <img src={heroImage} alt="Campus life" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               <div className="space-y-4 pt-12">
                 <img src={secondaryImage} alt="Students collaborating" className="rounded-2xl aspect-square object-cover w-full" />
-                <img src={lectureImage} alt="Lecture" className="rounded-2xl aspect-[3/4] object-cover w-full" />
               </div>
             </div>
           </div>
