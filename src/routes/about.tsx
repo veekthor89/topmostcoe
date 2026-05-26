@@ -3,6 +3,7 @@ import { ArrowRight, Globe2, Briefcase } from "lucide-react";
 import { STATS } from "@/lib/edukate-data";
 import graduateCap from "@/assets/graduate-cap.png";
 import documentationIcon from "@/assets/documentation.png";
+import handshakeIcon from "@/assets/handshake.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -76,7 +77,7 @@ function AboutPage() {
                 ) : v.icon === "globe" ? (
                   <img src={documentationIcon} alt="" className="h-full w-full object-contain" />
                 ) : (
-                  <Briefcase className="h-8 w-8 text-accent" strokeWidth={1.5} />
+                  <img src={handshakeIcon} alt="" className="h-full w-full object-contain" />
                 )}
               </div>
               <h3 className="font-serif text-xl font-semibold mt-5">{v.t}</h3>
