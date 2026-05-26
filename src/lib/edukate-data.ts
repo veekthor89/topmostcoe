@@ -47,9 +47,9 @@ export type Post = {
 };
 
 export const NEWS: Post[] = [
-  { slug: "climate-solutions", title: "Climate Solutions Driving the Next Decade", date: "Mar 18, 2025", image: "https://framerusercontent.com/images/luVIdrO0w0Yq6ufqymfoO2maDAw.png", excerpt: "TOPCOED researchers unveil a roadmap for scalable climate solutions." },
-  { slug: "energy-efficiency", title: "Breakthroughs in Energy Efficiency", date: "Mar 02, 2025", image: "https://framerusercontent.com/images/HUZa3FT5X6SynWllviBSNe9ldZ8.png", excerpt: "A new lab pushes building energy use to record lows." },
-  { slug: "environmental-impact", title: "Measuring Our Environmental Impact", date: "Feb 21, 2025", image: "https://framerusercontent.com/images/YhMGo78KsMrUeJnprF1NJBOMyA.png", excerpt: "How the campus reached carbon-neutral operations." },
+  { slug: "climate-solutions", title: "2026/2027 Admission Forms Now Available", date: "May 18, 2026", image: "https://framerusercontent.com/images/luVIdrO0w0Yq6ufqymfoO2maDAw.png", excerpt: "Application forms are now on sale for all programes. Visit the admissions office or apply online." },
+  { slug: "energy-efficiency", title: "TRCN CBT Examination — May/June Diet", date: "May 02, 2026", image: "https://framerusercontent.com/images/HUZa3FT5X6SynWllviBSNe9ldZ8.png", excerpt: "​Topmost Tutorial College is an approved NABTEB examination centre for May/June and November diets." },
+  { slug: "environmental-impact", title: "PDE Programe Open to All Healthcare Professionals", date: "Apr 21, 2026", image: "https://framerusercontent.com/images/YhMGo78KsMrUeJnprF1NJBOMyA.png", excerpt: "Nurses, military medics, and paramedics can now enrol in our TRCN-accredited PDE programme." },
   { slug: "green-technology", title: "Green Technology on Campus", date: "Feb 10, 2025", image: "/nabteb-program.jpg", excerpt: "Student-led startups bringing green tech to market." },
   { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "/teacher-image.jpg", excerpt: "New endowment fund accelerates renewable research." },
   { slug: "sustainable-agriculture", title: "Sustainable Agriculture at Scale", date: "Jan 14, 2025", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", excerpt: "Field trials show resilient yield with lower inputs." },
