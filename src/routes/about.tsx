@@ -34,11 +34,16 @@ function AboutPage() {
         <img src="/about-campus.jpg" alt="Campus" className="rounded-2xl aspect-[4/3] object-cover w-full" />
         <div>
           <h2 className="font-serif text-3xl lg:text-4xl font-semibold tracking-tight">Our mission</h2>
-          <p className="mt-5 text-muted-foreground leading-relaxed">
-            We exist to prepare students for the challenges of a rapidly changing world. Every program is built on three commitments: rigorous academics, original research, and a learning community where every student belongs.
+          <p className="mt-5 text-muted-foreground leading-relaxed whitespace-pre-line">
+            At Topmost College of Education, our mission is straightforward:
+            to provide accessible, accredited, and practical teacher-training
+            programmes that prepare every student to meet the standards
+            required by the Teachers Registration Council of Nigeria.
           </p>
-          <p className="mt-4 text-muted-foreground leading-relaxed">
-            We measure success by the impact our graduates make — in industry, in research labs, and in the communities they call home.
+          <p className="mt-4 text-muted-foreground leading-relaxed whitespace-pre-line">
+            We measure our success not by rankings but by how many of our
+            graduates are standing in classrooms across Nigeria, teaching legally,
+            confidently, and effectively.
           </p>
         </div>
       </section>
