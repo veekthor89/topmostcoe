@@ -12,23 +12,23 @@ export type Program = {
   slug: string;
   title: string;
   image: string;
-  category: "Vocational" | "Postgraduate" | "Degree" | "Online" | "Certificate" | "B.Sc / B.A Education" | "NCE" | "PDE" | "NABTEB";
+  category: "Vocational" | "Postgraduate" | "Degree" | "Online" | "Certificate" | "B.Sc / B.A / B.Ed Education" | "NCE" | "PDE" | "NABTEB";
   blurb: string;
 };
 
 export const PROGRAMS: Program[] = [
-  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "B.Sc / B.A Education", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
+  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A / B.Ed Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "B.Sc / B.A / B.Ed Education", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
   { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "/teacher-image.jpg", category: "NCE", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "/library-program.jpg", category: "PDE", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "NABTEB O & A Levels", image: "/english-program.jpg", category: "NABTEB", blurb: "Address modern health challenges through evidence-based practice." },
   { slug: "b-a-in-english-literature", title: "B.A. in English Literature", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "NABTEB", blurb: "Explore literature, criticism and creative writing across cultures." },
-  { slug: "b-sc-in-biotechnology", title: "B.Sc. in Biotechnology", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "B.Sc / B.A Education", blurb: "Bridge biology and technology to innovate in healthcare and agriculture." },
-  { slug: "b-sc-in-electrical-engineering", title: "B.Sc. in Electrical Engineering", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "B.Sc / B.A Education", blurb: "Design and build the electrical systems that power tomorrow." },
+  { slug: "b-sc-in-biotechnology", title: "B.Sc. in Biotechnology", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Bridge biology and technology to innovate in healthcare and agriculture." },
+  { slug: "b-sc-in-electrical-engineering", title: "B.Sc. in Electrical Engineering", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Design and build the electrical systems that power tomorrow." },
   { slug: "b-a-in-psychology", title: "B.A. in Psychology", image: "https://framerusercontent.com/images/MY9oljZl07K9qZQcTot9CaYruU.png", category: "NABTEB", blurb: "Understand the human mind through research, clinical and applied psychology." },
-  { slug: "b-sc-in-cybersecurity", title: "B.Sc. in Cybersecurity", image: "https://framerusercontent.com/images/loscw1ZBnmCGM9cGy1sS4AhX7EA.png", category: "B.Sc / B.A Education", blurb: "Defend critical systems from evolving cyber threats." },
-  { slug: "b-sc-in-data-science", title: "B.Sc. in Data Science", image: "https://framerusercontent.com/images/EU9Lyg6JKFiBn2rzVX9nNYq61ik.png", category: "B.Sc / B.A Education", blurb: "Turn data into insight with statistics, ML and visualization." },
-  { slug: "b-sc-in-artificial-intelligence", title: "B.Sc. in Artificial Intelligence", image: "https://framerusercontent.com/images/I9jq7IPQ7TtkNw240huBZM29vZ4.jpg", category: "B.Sc / B.A Education", blurb: "Shape the future of intelligent systems and applied AI." },
-  { slug: "b-sc-in-software-engineering", title: "B.Sc. in Software Engineering", image: "https://framerusercontent.com/images/K7oUH6zJ9duT6M0WS7UpQ6cGm5s.png", category: "B.Sc / B.A Education", blurb: "Engineer scalable, reliable software for real-world impact." },
+  { slug: "b-sc-in-cybersecurity", title: "B.Sc. in Cybersecurity", image: "https://framerusercontent.com/images/loscw1ZBnmCGM9cGy1sS4AhX7EA.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Defend critical systems from evolving cyber threats." },
+  { slug: "b-sc-in-data-science", title: "B.Sc. in Data Science", image: "https://framerusercontent.com/images/EU9Lyg6JKFiBn2rzVX9nNYq61ik.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Turn data into insight with statistics, ML and visualization." },
+  { slug: "b-sc-in-artificial-intelligence", title: "B.Sc. in Artificial Intelligence", image: "https://framerusercontent.com/images/I9jq7IPQ7TtkNw240huBZM29vZ4.jpg", category: "B.Sc / B.A / B.Ed Education", blurb: "Shape the future of intelligent systems and applied AI." },
+  { slug: "b-sc-in-software-engineering", title: "B.Sc. in Software Engineering", image: "https://framerusercontent.com/images/K7oUH6zJ9duT6M0WS7UpQ6cGm5s.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Engineer scalable, reliable software for real-world impact." },
   { slug: "master-of-business-administration", title: "Master of Business Administration", image: "/nabteb-program.jpg", category: "PDE", blurb: "Advance to senior leadership with our flagship MBA program." },
   { slug: "executive-program-in-business", title: "Executive Program in Business", image: "/teacher-image.jpg", category: "PDE", blurb: "Intensive program for working executives ready for the next step." },
   { slug: "educational-leadership-online", title: "Educational Leadership (Online)", image: "/library-program.jpg", category: "NABTEB", blurb: "Lead change in schools and educational organizations — fully online." },
