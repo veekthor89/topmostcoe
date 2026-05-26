@@ -64,7 +64,7 @@ function AboutPage() {
         <h2 className="font-serif text-3xl lg:text-4xl font-semibold tracking-tight max-w-2xl">What guides us</h2>
         <div className="mt-12 grid md:grid-cols-3 gap-6">
           {[
-            { t: "Academic Excellence", d: "Faculty drawn from the world's leading institutions, ranked top-5 nationally for innovation.", icon: "cap" as const },
+            { t: "Accreditation First", d: "Every programme we offer is backed by formal accreditation TRCN, LASU, NMC, and FGN. Your qualification means something \nwhen it comes from Topmost.", icon: "cap" as const },
             { t: "Global Perspective", d: "Students from 50+ countries learn alongside one another in every classroom and lab.", icon: "globe" as const },
             { t: "Real-World Impact", d: "20+ research centers translate scholarship into industry, policy, and community outcomes.", icon: "briefcase" as const },
           ].map((v) => (
@@ -79,7 +79,7 @@ function AboutPage() {
                 )}
               </div>
               <h3 className="font-serif text-xl font-semibold mt-5">{v.t}</h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{v.d}</p>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed whitespace-pre-line">{v.d}</p>
             </div>
           ))}
         </div>
