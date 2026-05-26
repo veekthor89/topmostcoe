@@ -65,7 +65,7 @@ export type Event = {
 
 export const EVENTS: Event[] = [
   { slug: "student-startup-pitch-competition", title: "Orientation for New Students", date: "Mar 22, 2026", image: "/student-orientation.jpg", excerpt: "Welcome ceremony for all newly admitted students across all programmes." },
-  { slug: "international-fashion-parade", title: "International Fashion Parade", date: "May 22, 2025", image: "/english-program.jpg", excerpt: "A celebration of cultural style from 50+ countries." },
+  { slug: "international-fashion-parade", title: "NABTEB Examination — Nov/Dec Diet", date: "Feb 12, 2026", image: "/nabteb-exam.png", excerpt: "Examination period for all NABTEB registered candidates at our approved centre." },
   { slug: "award-winning-student-play", title: "Award-Winning Student Play", date: "May 22, 2025", image: "/teacher-image.jpg", excerpt: "Original student theatre returning by popular demand." },
   { slug: "tech-innovation-summit", title: "Tech Innovation Summit", date: "June 10, 2025", image: "/nabteb-program.jpg", excerpt: "Industry leaders and students shape the next wave of tech." },
   { slug: "global-entrepreneurship-forum", title: "Global Entrepreneurship Forum", date: "July 03, 2025", image: "/teacher-image.jpg", excerpt: "Founders, funders and faculty in one room." },
