@@ -17,7 +17,7 @@ export type Program = {
 };
 
 export const PROGRAMS: Program[] = [
-  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "https://framerusercontent.com/images/Ka1bJBny9syIl3hNTfDdIjrXrI.png", category: "Degree", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
+  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "Degree", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
   { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Certificate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "https://framerusercontent.com/images/SmMXkMeL4PGRHcCrq8IrGvZE0g.png", category: "Postgraduate", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "NABTEB O & A Levels", image: "https://framerusercontent.com/images/f8CAMd3kts006FQ9QDIISgZWG8.png", category: "Vocational", blurb: "Address modern health challenges through evidence-based practice." },
