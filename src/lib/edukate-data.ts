@@ -2,7 +2,7 @@
 
 export const SITE = {
   name: "TOPCOED",
-  tagline: "Empowering Futures Educators",
+  tagline: "Accredited. Affiliated. Trusted.",
   phone: "08037204088, 08033183854",
   email: "info@topmost.edu",
   address: "Ipaja/Agbado, Lagos",

@@ -178,7 +178,7 @@ function Home() {
         <div className="relative overflow-hidden rounded-3xl bg-primary text-primary-foreground p-12 lg:p-20 grid lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="font-serif text-4xl lg:text-5xl font-semibold tracking-tight">Ready to begin your journey?</h2>
-            <p className="mt-4 text-primary-foreground/80 max-w-md">Join a vibrant community of thinkers, creators, and leaders. Applications open for 2025/2026 Session.</p>
+            <p className="mt-4 text-primary-foreground/80 max-w-md">Join hundreds of students building careers in education with a{"\n"}TRCN-accredited qualification from Topmost College of Education.{"\n"}Applications are open for the 2025/2026 academic session.</p>
             <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition">
               Apply for 2025/2026 Session →
             </Link>
