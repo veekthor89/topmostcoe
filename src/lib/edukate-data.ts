@@ -47,7 +47,7 @@ export type Post = {
 };
 
 export const NEWS: Post[] = [
-  { slug: "climate-solutions", title: "2026/2027 Admission Forms Now Available", date: "May 18, 2026", image: "/student-hallway.jpg", excerpt: "Application forms are now on sale for all programes. Visit the admissions office or apply online." },
+  { slug: "climate-solutions", title: "2026/2027 Admission Forms Now Available", date: "May 18, 2026", image: "/admissions-student.png", excerpt: "Application forms are now on sale for all programes. Visit the admissions office or apply online." },
   { slug: "energy-efficiency", title: "TRCN CBT Examination — May/June Diet", date: "May 02, 2026", image: "/computer-lab.jpg", excerpt: "​Topmost Tutorial College is an approved NABTEB examination centre for May/June and November diets." },
   { slug: "environmental-impact", title: "PDE Programe Open to All Healthcare Professionals", date: "Apr 21, 2026", image: "/healthcare-pros.jpg", excerpt: "Nurses, military medics, and paramedics can now enrol in our TRCN-accredited PDE programme." },
   { slug: "green-technology", title: "Green Technology on Campus", date: "Feb 10, 2025", image: "/nabteb-program.jpg", excerpt: "Student-led startups bringing green tech to market." },
