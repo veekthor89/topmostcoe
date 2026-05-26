@@ -28,10 +28,12 @@ function ProgramsPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
           <span className="text-xs font-medium uppercase tracking-widest text-accent">Academics</span>
           <h1 className="font-serif text-5xl lg:text-7xl font-semibold mt-4 tracking-tight max-w-4xl leading-[1.05]">
-            Explore all <em>programs</em>
+            Find the programme<br />built for your path.
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Discover a wide range of undergraduate and graduate programs designed to prepare you for real-world success.
+          <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed whitespace-pre-line">
+            Whether you're a school leaver, a working professional, or a healthcare {"\n"}
+            practitioner seeking a teaching qualification Topmost College of Education  offers an accredited programme designed specifically for you.{"\n"}
+            All programmes are TRCN-recognised and nationally approved.
           </p>
         </div>
       </section>
