@@ -20,7 +20,7 @@ function AboutPage() {
     <div>
       <section className="bg-gradient-to-b from-secondary to-background">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
-          <span className="text-xs font-medium uppercase tracking-widest text-accent">About TOPCOED</span>
+          <span className="text-xs font-medium uppercase tracking-widest text-accent">About Topmost</span>
           <h1 className="font-serif text-5xl lg:text-7xl font-semibold mt-4 tracking-tight max-w-4xl leading-[1.05]">
             Training Nigeria's teachers<br />for over two decades.
           </h1>
