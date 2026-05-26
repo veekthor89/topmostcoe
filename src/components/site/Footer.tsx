@@ -13,7 +13,7 @@ export function Footer() {
             <span className="font-serif text-xl font-semibold">{SITE.name}</span>
           </div>
           <p className="text-sm text-primary-foreground/70 max-w-md leading-relaxed">
-            {SITE.tagline}. We prepare students for the challenges of a rapidly changing world through academic excellence and global perspective.
+            Empowering educators across Nigeria.{"\n"}Accredited. Affiliated. Trusted.
           </p>
         </div>
         <div>
@@ -37,7 +37,7 @@ export function Footer() {
       </div>
       <div className="border-t border-primary-foreground/10">
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/60">
-          <p>© {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} VANNI. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-accent transition">Privacy Policy</a>
             <a href="#" className="hover:text-accent transition">Terms & Conditions</a>
