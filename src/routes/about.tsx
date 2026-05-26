@@ -5,8 +5,8 @@ import { STATS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — TOPCOED" },
-      { name: "description", content: "TOPCOED has championed academic excellence, original research, and a global student community." },
+      { title: "About — Topmost College of Education" },
+      { name: "description", content: "Training Nigeria's teachers for over two decades. Topmost College of Education is a Federal Government-approved institution accredited by the TRCN." },
       { property: "og:title", content: "About TOPCOED" },
       { property: "og:description", content: "Empowering futures through academic excellence and innovation." },
       { property: "og:image", content: "https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" },
