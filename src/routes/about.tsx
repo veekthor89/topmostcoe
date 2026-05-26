@@ -65,8 +65,8 @@ function AboutPage() {
         <div className="mt-12 grid md:grid-cols-3 gap-6">
           {[
             { t: "Accreditation First", d: "Every programme we offer is backed by formal accreditation TRCN, LASU, NMC, and FGN. Your qualification means something \nwhen it comes from Topmost.", icon: "cap" as const },
-            { t: "Global Perspective", d: "Students from 50+ countries learn alongside one another in every classroom and lab.", icon: "globe" as const },
-            { t: "Real-World Impact", d: "20+ research centers translate scholarship into industry, policy, and community outcomes.", icon: "briefcase" as const },
+            { t: "Practical Teacher Training", d: "We don't just teach we prepare. Our programmes are structured around Nigeria's classroom realities, TRCN examination requirements, and the demands of modern school administration.", icon: "globe" as const },
+            { t: "Accessible to All", d: "From school leavers to working nurses, from fresh NCE students to experienced professionals our flexible full-time and part-time options are designed to meet you where you are.", icon: "briefcase" as const },
           ].map((v) => (
             <div key={v.t} className="rounded-2xl border border-border bg-card p-8">
               <div className="h-12 w-12 grid place-items-center">
