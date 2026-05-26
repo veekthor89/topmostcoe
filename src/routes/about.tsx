@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { STATS } from "@/lib/edukate-data";
+import graduateCap from "@/assets/graduate-cap.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -68,7 +69,7 @@ function AboutPage() {
             { t: "Real-World Impact", d: "20+ research centers translate scholarship into industry, policy, and community outcomes." },
           ].map((v) => (
             <div key={v.t} className="rounded-2xl border border-border bg-card p-8">
-              <div className="h-10 w-10 rounded-full bg-accent text-accent-foreground grid place-items-center font-serif font-semibold">{v.t[0]}</div>
+              <div className="h-12 w-12 grid place-items-center"><img src={graduateCap} alt="" className="h-full w-full object-contain" /></div>
               <h3 className="font-serif text-xl font-semibold mt-5">{v.t}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{v.d}</p>
             </div>
