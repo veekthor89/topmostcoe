@@ -77,7 +77,7 @@ function AboutPage() {
                 ) : v.icon === "globe" ? (
                   <img src={documentationIcon} alt="" className="h-full w-full object-contain" />
                 ) : (
-                  <Briefcase className="h-8 w-8 text-accent" strokeWidth={1.5} />
+                  <img src={handshakeIcon} alt="" className="h-full w-full object-contain" />
                 )}
               </div>
               <h3 className="font-serif text-xl font-semibold mt-5">{v.t}</h3>
