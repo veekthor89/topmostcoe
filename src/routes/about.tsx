@@ -74,7 +74,7 @@ function AboutPage() {
                 {v.icon === "cap" ? (
                   <img src={graduateCap} alt="" className="h-full w-full object-contain" />
                 ) : v.icon === "globe" ? (
-                  <Globe2 className="h-8 w-8 text-accent" strokeWidth={1.5} />
+                  <img src={documentationIcon} alt="" className="h-full w-full object-contain" />
                 ) : (
                   <Briefcase className="h-8 w-8 text-accent" strokeWidth={1.5} />
                 )}
