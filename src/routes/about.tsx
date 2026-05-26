@@ -5,8 +5,8 @@ import { STATS } from "@/lib/edukate-data";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — TOPCOED" },
-      { name: "description", content: "TOPCOED has championed academic excellence, original research, and a global student community." },
+      { title: "About — Topmost College of Education" },
+      { name: "description", content: "Training Nigeria's teachers for over two decades. Topmost College of Education is a Federal Government-approved institution accredited by the TRCN." },
       { property: "og:title", content: "About TOPCOED" },
       { property: "og:description", content: "Empowering futures through academic excellence and innovation." },
       { property: "og:image", content: "https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" },
@@ -20,12 +20,12 @@ function AboutPage() {
     <div>
       <section className="bg-gradient-to-b from-secondary to-background">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
-          <span className="text-xs font-medium uppercase tracking-widest text-accent">About TOPCOED</span>
+          <span className="text-xs font-medium uppercase tracking-widest text-accent">About Topmost</span>
           <h1 className="font-serif text-5xl lg:text-7xl font-semibold mt-4 tracking-tight max-w-4xl leading-[1.05]">
-            A legacy of <em>curiosity</em> and excellence.
+            Training Nigeria's teachers<br />for over two decades.
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            TOPCOED has grown into a global institution with students from more than 50 countries.
+          <p className="mt-6 text-lg text-muted-foreground max-w-3xl leading-relaxed">
+            Topmost College of Education is a Federal Government-approved institution<br />in Ipaja, Lagos accredited by the Teachers Registration Council of Nigeria<br />and affiliated with Lagos State University, Ojo. We exist for one purpose:<br />to produce qualified, licensed, and capable educators for Nigerian classrooms.
           </p>
         </div>
       </section>
