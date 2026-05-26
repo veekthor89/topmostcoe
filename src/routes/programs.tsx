@@ -32,7 +32,7 @@ function ProgramsPage() {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed whitespace-pre-line">
             Whether you're a school leaver, a working professional, or a healthcare {"\n"}
-            practitioner seeking a teaching qualification Topmost College of Education offers an accredited programme designed specifically for you.{"\n"}
+            practitioner seeking a teaching qualification Topmost College of Education  offers an accredited programme designed specifically for you.{"\n"}
             All programmes are TRCN-recognised and nationally approved.
           </p>
         </div>
