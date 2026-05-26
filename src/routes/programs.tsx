@@ -15,7 +15,7 @@ export const Route = createFileRoute("/programs")({
   component: ProgramsPage,
 });
 
-const CATEGORIES = ["All", "B.Sc / B.A Education", "NCE", "PDE", "Online"] as const;
+const CATEGORIES = ["All", "B.Sc / B.A Education", "NCE", "PDE", "NABTEB"] as const;
 type Cat = typeof CATEGORIES[number];
 
 function ProgramsPage() {
