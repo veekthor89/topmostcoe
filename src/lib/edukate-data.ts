@@ -18,7 +18,7 @@ export type Program = {
 
 export const PROGRAMS: Program[] = [
   { slug: "b-sc-in-computer-science", title: "B.Sc / B.A Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "Degree", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
-  { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Certificate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
+  { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "/teacher-image.jpg", category: "Certificate", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "/library-program.jpg", category: "Postgraduate", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "NABTEB O & A Levels", image: "/english-program.jpg", category: "Vocational", blurb: "Address modern health challenges through evidence-based practice." },
   { slug: "b-a-in-english-literature", title: "B.A. in English Literature", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Vocational", blurb: "Explore literature, criticism and creative writing across cultures." },
@@ -30,7 +30,7 @@ export const PROGRAMS: Program[] = [
   { slug: "b-sc-in-artificial-intelligence", title: "B.Sc. in Artificial Intelligence", image: "https://framerusercontent.com/images/I9jq7IPQ7TtkNw240huBZM29vZ4.jpg", category: "Degree", blurb: "Shape the future of intelligent systems and applied AI." },
   { slug: "b-sc-in-software-engineering", title: "B.Sc. in Software Engineering", image: "https://framerusercontent.com/images/K7oUH6zJ9duT6M0WS7UpQ6cGm5s.png", category: "Degree", blurb: "Engineer scalable, reliable software for real-world impact." },
   { slug: "master-of-business-administration", title: "Master of Business Administration", image: "/nabteb-program.jpg", category: "Postgraduate", blurb: "Advance to senior leadership with our flagship MBA program." },
-  { slug: "executive-program-in-business", title: "Executive Program in Business", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", category: "Postgraduate", blurb: "Intensive program for working executives ready for the next step." },
+  { slug: "executive-program-in-business", title: "Executive Program in Business", image: "/teacher-image.jpg", category: "Postgraduate", blurb: "Intensive program for working executives ready for the next step." },
   { slug: "educational-leadership-online", title: "Educational Leadership (Online)", image: "/library-program.jpg", category: "Online", blurb: "Lead change in schools and educational organizations — fully online." },
   { slug: "diploma-in-digital-marketing", title: "Diploma in Digital Marketing", image: "/english-program.jpg", category: "Online", blurb: "Master SEO, social, paid media and analytics in one focused diploma." },
   { slug: "online-certification-in-data", title: "Online Certification in Data", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "Online", blurb: "Practical data analysis credential you can complete on your schedule." },
@@ -51,7 +51,7 @@ export const NEWS: Post[] = [
   { slug: "energy-efficiency", title: "Breakthroughs in Energy Efficiency", date: "Mar 02, 2025", image: "https://framerusercontent.com/images/HUZa3FT5X6SynWllviBSNe9ldZ8.png", excerpt: "A new lab pushes building energy use to record lows." },
   { slug: "environmental-impact", title: "Measuring Our Environmental Impact", date: "Feb 21, 2025", image: "https://framerusercontent.com/images/YhMGo78KsMrUeJnprF1NJBOMyA.png", excerpt: "How the campus reached carbon-neutral operations." },
   { slug: "green-technology", title: "Green Technology on Campus", date: "Feb 10, 2025", image: "/nabteb-program.jpg", excerpt: "Student-led startups bringing green tech to market." },
-  { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", excerpt: "New endowment fund accelerates renewable research." },
+  { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "/teacher-image.jpg", excerpt: "New endowment fund accelerates renewable research." },
   { slug: "sustainable-agriculture", title: "Sustainable Agriculture at Scale", date: "Jan 14, 2025", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", excerpt: "Field trials show resilient yield with lower inputs." },
 ];
 
@@ -68,7 +68,7 @@ export const EVENTS: Event[] = [
   { slug: "international-fashion-parade", title: "International Fashion Parade", date: "May 22, 2025", image: "https://framerusercontent.com/images/HUZa3FT5X6SynWllviBSNe9ldZ8.png", excerpt: "A celebration of cultural style from 50+ countries." },
   { slug: "award-winning-student-play", title: "Award-Winning Student Play", date: "May 22, 2025", image: "https://framerusercontent.com/images/YhMGo78KsMrUeJnprF1NJBOMyA.png", excerpt: "Original student theatre returning by popular demand." },
   { slug: "tech-innovation-summit", title: "Tech Innovation Summit", date: "June 10, 2025", image: "/nabteb-program.jpg", excerpt: "Industry leaders and students shape the next wave of tech." },
-  { slug: "global-entrepreneurship-forum", title: "Global Entrepreneurship Forum", date: "July 03, 2025", image: "https://framerusercontent.com/images/ev9CvHUA8C8q2XIZGRHP0vWBXWk.png", excerpt: "Founders, funders and faculty in one room." },
+  { slug: "global-entrepreneurship-forum", title: "Global Entrepreneurship Forum", date: "July 03, 2025", image: "/teacher-image.jpg", excerpt: "Founders, funders and faculty in one room." },
   { slug: "sustainable-business-expo", title: "Sustainable Business Expo", date: "August 18, 2025", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", excerpt: "Showcasing companies redefining sustainable commerce." },
 ];
 
