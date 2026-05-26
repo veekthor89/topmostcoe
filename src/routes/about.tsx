@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "Training Nigeria's teachers for over two decades. Topmost College of Education is a Federal Government-approved institution accredited by the TRCN." },
       { property: "og:title", content: "About TOPCOED" },
       { property: "og:description", content: "Empowering futures through academic excellence and innovation." },
-      { property: "og:image", content: "https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" },
+      { property: "og:image", content: "/about-campus.jpg" },
     ],
   }),
   component: AboutPage,
@@ -31,7 +31,7 @@ function AboutPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
-        <img src="https://framerusercontent.com/images/Rm3kw04I228nOhAb46Dgmagv3OE.png" alt="Campus" className="rounded-2xl aspect-[4/3] object-cover w-full" />
+        <img src="/about-campus.jpg" alt="Campus" className="rounded-2xl aspect-[4/3] object-cover w-full" />
         <div>
           <h2 className="font-serif text-3xl lg:text-4xl font-semibold tracking-tight">Our mission</h2>
           <p className="mt-5 text-muted-foreground leading-relaxed">
