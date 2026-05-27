@@ -52,7 +52,7 @@ export const NEWS: Post[] = [
   { slug: "environmental-impact", title: "PDE Programe Open to All Healthcare Professionals", date: "Apr 21, 2026", image: "/healthcare-pros.jpg", excerpt: "Nurses, military medics, and paramedics can now enrol in our TRCN-accredited PDE programme." },
   { slug: "green-technology", title: "Green Technology on Campus", date: "Feb 10, 2025", image: "/nabteb-program.jpg", excerpt: "Student-led startups bringing green tech to market." },
   { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "/teacher-image.jpg", excerpt: "New endowment fund accelerates renewable research." },
-  { slug: "sustainable-agriculture", title: "Sustainable Agriculture at Scale", date: "Jan 14, 2025", image: "/images/classroom.jpg", excerpt: "Field trials show resilient yield with lower inputs." },
+  { slug: "sustainable-agriculture", title: "Sustainable Agriculture at Scale", date: "Jan 14, 2025", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", excerpt: "Field trials show resilient yield with lower inputs." },
 ];
 
 export type Event = {
@@ -69,7 +69,7 @@ export const EVENTS: Event[] = [
   { slug: "award-winning-student-play", title: "TRCN CBT/PQEI Examination", date: "Jan 04, 2026", image: "/trcn-logo.png", excerpt: "On-site CBT preparation and examination sitting for TRCN Certified candidates." },
   { slug: "tech-innovation-summit", title: "Tech Innovation Summit", date: "June 10, 2025", image: "/nabteb-program.jpg", excerpt: "Industry leaders and students shape the next wave of tech." },
   { slug: "global-entrepreneurship-forum", title: "Global Entrepreneurship Forum", date: "July 03, 2025", image: "/teacher-image.jpg", excerpt: "Founders, funders and faculty in one room." },
-  { slug: "sustainable-business-expo", title: "Sustainable Business Expo", date: "August 18, 2025", image: "/images/classroom.jpg", excerpt: "Showcasing companies redefining sustainable commerce." },
+  { slug: "sustainable-business-expo", title: "Sustainable Business Expo", date: "August 18, 2025", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", excerpt: "Showcasing companies redefining sustainable commerce." },
 ];
 
 export const STATS = [
