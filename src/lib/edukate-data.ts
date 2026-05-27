@@ -32,7 +32,7 @@ export const PROGRAMS: Program[] = [
   { slug: "master-of-business-administration", title: "NABTEB O Level (NBC & NTC)", image: "/nabteb-program.jpg", category: "NABTEB", blurb: "Full and part-time NABTEB O Level preparation across \nNational Business Certificate (NBC) and National Technical \nCertificate (NTC). All trades available." },
   { slug: "executive-program-in-business", title: "NABTEB A Level (General Education)", image: "/teacher-image.jpg", category: "NABTEB", blurb: "Advanced-level NABTEB preparation for students seeking \ntertiary entry through vocational and technical routes. \nMorning and evening class sessions available." },
   
-  { slug: "diploma-in-digital-marketing", title: "Diploma in Digital Marketing", image: "/english-program.jpg", category: "B.Sc / B.A / B.Ed Education", blurb: "Master SEO, social, paid media and analytics in one focused diploma." },
+  
   { slug: "online-certification-in-data", title: "Online Certification in Data", image: "https://framerusercontent.com/images/7JyxFzbhwLWHTHMjN0jThMbL1Q.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Practical data analysis credential you can complete on your schedule." },
   { slug: "certificate-in-project-management", title: "Certificate in Project Management", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "PDE", blurb: "Plan, execute and deliver complex projects with confidence." },
   { slug: "certification-in-ux-ui-design", title: "Certification in UX/UI Design", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Design products people love through research-led UX practice." },
