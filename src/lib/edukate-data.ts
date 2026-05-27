@@ -52,7 +52,7 @@ export const NEWS: Post[] = [
   { slug: "environmental-impact", title: "PDE Programe Open to All Healthcare Professionals", date: "Apr 21, 2026", image: "/healthcare-pros.jpg", excerpt: "Nurses, military medics, and paramedics can now enrol in our TRCN-accredited PDE programme." },
   
   { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "/teacher-image.jpg", excerpt: "New endowment fund accelerates renewable research." },
-  { slug: "sustainable-agriculture", title: "Sustainable Agriculture at Scale", date: "Jan 14, 2025", image: "/images/38437453-d2ee-4b4c-99f8-eae63150868f.jpg", excerpt: "Field trials show resilient yield with lower inputs." },
+  
 ];
 
 export type Event = {
