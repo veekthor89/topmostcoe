@@ -35,7 +35,7 @@ export const PROGRAMS: Program[] = [
   
   
   { slug: "certificate-in-project-management", title: "Certificate in Project Management", image: "https://framerusercontent.com/images/SgQPOC1lvcPZAilklIFONMPEFw.png", category: "PDE", blurb: "Plan, execute and deliver complex projects with confidence." },
-  { slug: "certification-in-ux-ui-design", title: "Certification in UX/UI Design", image: "https://framerusercontent.com/images/kp1vlrAOAXV8X6W8fUI17liwdA.png", category: "B.Sc / B.A / B.Ed Education", blurb: "Design products people love through research-led UX practice." },
+  
 ];
 
 export type Post = {
