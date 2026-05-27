@@ -68,7 +68,7 @@ export const EVENTS: Event[] = [
   { slug: "international-fashion-parade", title: "NABTEB Examination — Nov/Dec Diet", date: "Feb 12, 2026", image: "/nabteb-exam.png", excerpt: "Examination period for all NABTEB registered candidates at our approved centre." },
   { slug: "award-winning-student-play", title: "TRCN CBT/PQEI Examination", date: "Jan 04, 2026", image: "/trcn-logo.png", excerpt: "On-site CBT preparation and examination sitting for TRCN Certified candidates." },
   
-  { slug: "global-entrepreneurship-forum", title: "Global Entrepreneurship Forum", date: "July 03, 2025", image: "/teacher-image.jpg", excerpt: "Founders, funders and faculty in one room." },
+  
   { slug: "sustainable-business-expo", title: "Sustainable Business Expo", date: "August 18, 2025", image: "/images/38437453-d2ee-4b4c-99f8-eae63150868f.jpg", excerpt: "Showcasing companies redefining sustainable commerce." },
 ];
 
