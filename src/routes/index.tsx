@@ -138,11 +138,11 @@ function Home() {
         <div>
           <div className="flex items-end justify-between mb-8">
             <h2 className="font-serif text-3xl font-semibold">Latest News</h2>
-            <Link to="/news" className="text-sm text-primary font-medium">All news →</Link>
+            <Link to="/news-events" className="text-sm text-primary font-medium">All news →</Link>
           </div>
           <div className="space-y-5">
             {latestNews.map((n) => (
-              <Link key={n.slug} to="/news" className="flex gap-4 group">
+              <Link key={n.slug} to="/news-events" className="flex gap-4 group">
                 <img src={n.image} alt={n.title} className="h-24 w-32 rounded-xl object-cover shrink-0" />
                 <div>
                   <div className="text-xs text-muted-foreground">{n.date}</div>
@@ -156,11 +156,11 @@ function Home() {
         <div>
           <div className="flex items-end justify-between mb-8">
             <h2 className="font-serif text-3xl font-semibold">Upcoming Events</h2>
-            <Link to="/events" className="text-sm text-primary font-medium">All events →</Link>
+            <Link to="/news-events" className="text-sm text-primary font-medium">All events →</Link>
           </div>
           <div className="space-y-5">
             {upcomingEvents.map((e) => (
-              <Link key={e.slug} to="/events" className="flex gap-4 group">
+              <Link key={e.slug} to="/news-events" className="flex gap-4 group">
                 <img src={e.image} alt={e.title} className="h-24 w-32 rounded-xl object-cover shrink-0" />
                 <div>
                   <div className="text-xs text-accent font-medium">{e.date}</div>
