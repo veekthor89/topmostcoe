@@ -17,7 +17,7 @@ export type Program = {
 };
 
 export const PROGRAMS: Program[] = [
-  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A / B.Ed Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "B.Sc / B.A / B.Ed Education", blurb: "Strong foundation in programming, data structures, algorithms and modern computing." },
+  { slug: "b-sc-in-computer-science", title: "B.Sc / B.A / B.Ed Education (LASU Sandwich)", image: "/nabteb-program.jpg", category: "B.Sc / B.A / B.Ed Education", blurb: "LASU sandwich degree in Science Education across 13 subjects" },
   { slug: "bba-in-marketing", title: "NCE (Nigeria Certificate in Education)", image: "/teacher-image.jpg", category: "NCE", blurb: "Master modern marketing strategy, consumer behavior and brand leadership." },
   { slug: "ll-b-bachelor-of-laws", title: "Professional Diploma in Education (PDE)", image: "/library-program.jpg", category: "PDE", blurb: "Comprehensive legal education with practical advocacy training." },
   { slug: "b-sc-in-public-health", title: "NABTEB O & A Levels", image: "/english-program.jpg", category: "NABTEB", blurb: "Address modern health challenges through evidence-based practice." },
