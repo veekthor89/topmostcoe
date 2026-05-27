@@ -185,8 +185,8 @@ function Home() {
           </div>
           <div className="hidden lg:block relative h-64">
             <div className="absolute inset-0 grid grid-cols-2 gap-4">
-              <img src="https://framerusercontent.com/images/7cPJ5EciFsRzDDJZK2TJu7Qctro.png" alt="" className="rounded-2xl object-cover h-full w-full" />
-              <img src="https://framerusercontent.com/images/HmFELP6MermaGIGefLN5WtCQco.png" alt="" className="rounded-2xl object-cover h-full w-full" />
+              <img src="/students-studying.png" alt="" className="rounded-2xl object-cover h-full w-full" />
+              <img src="/students-discussing.jpg" alt="" className="rounded-2xl object-cover h-full w-full" />
             </div>
           </div>
         </div>
