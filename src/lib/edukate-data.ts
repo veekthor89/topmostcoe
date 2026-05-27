@@ -51,7 +51,7 @@ export const NEWS: Post[] = [
   { slug: "energy-efficiency", title: "TRCN CBT Examination — May/June Diet", date: "May 02, 2026", image: "/computer-lab.jpg", excerpt: "​Topmost Tutorial College is an approved TRCN examination centre for May and November diets." },
   { slug: "environmental-impact", title: "PDE Programe Open to All Healthcare Professionals", date: "Apr 21, 2026", image: "/healthcare-pros.jpg", excerpt: "Nurses, military medics, and paramedics can now enrol in our TRCN-accredited PDE programme." },
   
-  { slug: "renewable-resources", title: "Investing in Renewable Resources", date: "Jan 28, 2025", image: "/teacher-image.jpg", excerpt: "New endowment fund accelerates renewable research." },
+  
   
 ];
 
