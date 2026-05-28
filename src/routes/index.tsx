@@ -45,7 +45,7 @@ function Home() {
               through accredited degree, diploma, and professional programmes - right in the heart of Lagos.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:bg-primary/90 transition">
+              <Link to="/apply" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:bg-primary/90 transition">
                 Apply for 2025/2026 Session →
               </Link>
               <Link to="/programs" className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-medium hover:border-primary transition">
@@ -179,7 +179,7 @@ function Home() {
           <div>
             <h2 className="font-serif text-4xl lg:text-5xl font-semibold tracking-tight">Ready to begin your journey?</h2>
             <p className="mt-4 text-primary-foreground/80 max-w-md">Join hundreds of students building careers in education with a{"\n"}TRCN-accredited qualification from Topmost College of Education.{"\n"}Applications are open for the 2025/2026 academic session.</p>
-            <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition">
+            <Link to="/apply" className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition">
               Apply for 2025/2026 Session →
             </Link>
           </div>
