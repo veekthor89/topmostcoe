@@ -175,7 +175,7 @@ function ApplyPage() {
 
               {/* Submit */}
               <div className="pt-2 space-y-4">
-                <button type="submit" className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] text-white px-6 py-4 text-base font-medium hover:bg-[#1ebe5d] transition">
+                <button type="submit" className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-4 text-base font-medium hover:bg-primary/90 transition">
                   Submit Application →
                 </button>
                 <p className="text-xs text-muted-foreground leading-relaxed">
