@@ -39,7 +39,7 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <Link to="/apply" className="hidden md:inline-flex items-center rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-primary/90 transition">
+          <Link to="/contact" className="hidden md:inline-flex items-center rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-primary/90 transition">
             Apply Now
           </Link>
           <button className="lg:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menu">
@@ -55,7 +55,7 @@ export function Header() {
                 {n.label}
               </Link>
             ))}
-            <Link to="/apply" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium">
+            <Link to="/contact" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium">
               Apply Now
             </Link>
           </nav>
